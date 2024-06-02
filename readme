@@ -1,5 +1,5 @@
 install fastapi dan sqlalchemy : pip install fastapi sqlalchemy pymysql uvicorn
-impror db crud yang ada di config
+impror db crud yang ada di config ke dalam mysql
 mode venv : source venv/Scripts/activate
 start server : uvicorn index:app --reload
 membuka buka browser dan tulis : http://localhost:8000/docs
