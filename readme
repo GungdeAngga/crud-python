@@ -1,0 +1,25 @@
+install fastapi dan sqlalchemy : pip install fastapi sqlalchemy pymysql uvicorn
+impror db crud yang ada di config
+mode venv : source venv/Scripts/activate
+start server : uvicorn index:app --reload
+membuka buka browser dan tulis : http://localhost:8000/docs
+menu fastAPI akan terbuka lalu pada write data bisa melakukan input, read data untuk membaca data, update data untuk mebubah data, dan delete untuk menghapus data
+pada menu dropdown akan terdapat "try it out" button klik menu tersebut
+
+pada menu write data akan terdapat input seperti
+{
+  "nama": "string",
+  "alamat": "string",
+  "noHP": "string"
+}
+ubah "string" sesuai input lalu klik execute maka data akan masuk kedalam database
+
+pada menu read dan delete data akan terdapat input id, masukkan id yang ingin di baca atau di delete setelah itu klik execute
+
+pada menu update terdapat input id, masukkan id yang ingin di update dan setelah itu akan terdapat input 
+{
+  "nama": "string",
+  "alamat": "string",
+  "noHP": "string"
+}
+ubah "string" sesuai yang diinginkan lalu klik execute
